@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.hero-bg {
+  @apply bg-[url('/images/bg/headerBg.jpg')] bg-fixed bg-center bg-cover
+}
+
+.aboutUs-bg {
+  @apply bg-[url('/images/bg/AboutUsBg.jpg')] bg-fixed bg-center bg-cover
+}
+
+.proyecto-bg {
+  @apply bg-[url('/images/bg/ProyectoBg.jpg')] bg-fixed bg-center bg-cover
+}
+
+.masterPlan-bg {
+  @apply bg-[url('/images/bg/MasterPlanBg.jpg')] bg-fixed bg-center bg-cover
+}
+
+.boton-verde {
+  @apply sm:px-8 px-4 py-2 border rounded-md bg-green-500 text-white hover:bg-white hover:text-black font-bold 
+}
+
+.fondo-azul{
+    background-color: rgb(63, 167, 214, 0.7)
+  }
+
+
+  .submenu-li{
+    @apply m-2 p-2 pr-4 hover:bg-green-500 hover:text-white rounded-md
+  }
+  
+  .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.918)/70;
+    border-radius: 0.375rem;
+  }
+  
+  .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+  }
+  
+  
